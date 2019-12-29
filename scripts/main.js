@@ -1,3 +1,5 @@
+
+
 // Image switcher code
 
 
@@ -22,11 +24,11 @@ myImage.onclick = function() {
 
 
 
-  if(mySrc === 'images/Simon.png') {
+  if(mySrc === 'images/Messi.png') {
 
 
 
-    myImage.setAttribute ('src','images/Dina.png');
+    myImage.setAttribute ('src','images/Cristiano.png');
 
 
 
@@ -34,7 +36,7 @@ myImage.onclick = function() {
 
 
 
-    myImage.setAttribute ('src','images/Simon.png');
+    myImage.setAttribute ('src','images/Messi.png');
 
 
 
@@ -94,7 +96,7 @@ function setUserName() {
 
 
 
-    myHeading.innerHTML = 'Las mejores gimnastas, descúbrelas ' + myName;
+    myHeading.innerHTML = 'Messi es mejor, asúmelo ' + myName;
 
 
 
@@ -126,7 +128,7 @@ if(!localStorage.getItem('name')) {
 
 
 
-  myHeading.innerHTML = 'Las mejores gimnastas, descúbrelas ' + storedName;
+  myHeading.innerHTML = 'Messi es el mejor, asúmelo ' + storedName;
 
 
 
