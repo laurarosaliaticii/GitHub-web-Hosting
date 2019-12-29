@@ -190,7 +190,7 @@ function setUserName() {
 
 
 
-    myHeading.innerHTML = 'Messi es mejor, asúmelo ' + myName;
+    myHeading.innerHTML = 'Las mejores gimnastas, descúbrelas ' + myName;
 
 
 
@@ -254,7 +254,7 @@ if(!localStorage.getItem('name')) {
 
 
 
-  myHeading.innerHTML = 'Messi es el mejor, asúmelo ' + storedName;
+  myHeading.innerHTML = 'Las mejores gimnastas, descúbrelas ' + storedName;
 
 
 
