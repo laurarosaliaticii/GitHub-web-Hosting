@@ -1,6 +1,12 @@
-
-
 // Image switcher code
+
+
+
+
+
+
+
+
 
 
 
@@ -16,7 +22,19 @@ let myImage = document.querySelector('img');
 
 
 
+
+
+
+
+
+
+
+
 myImage.onclick = function() {
+
+
+
+
 
 
 
@@ -24,11 +42,23 @@ myImage.onclick = function() {
 
 
 
-  if(mySrc === 'images/Messi.png') {
 
 
 
-    myImage.setAttribute ('src','images/Cristiano.png');
+
+  if(mySrc === 'images/Simon.png') {
+
+
+
+
+
+
+
+    myImage.setAttribute ('src','images/Yana.png');
+
+
+
+
 
 
 
@@ -36,7 +66,15 @@ myImage.onclick = function() {
 
 
 
-    myImage.setAttribute ('src','images/Messi.png');
+
+
+
+
+    myImage.setAttribute ('src','images/Simon.png');
+
+
+
+
 
 
 
@@ -44,7 +82,19 @@ myImage.onclick = function() {
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -60,7 +110,19 @@ myImage.onclick = function() {
 
 
 
+
+
+
+
+
+
+
+
 let myButton = document.querySelector('button');
+
+
+
+
 
 
 
@@ -72,7 +134,19 @@ let myHeading = document.querySelector('h1');
 
 
 
+
+
+
+
+
+
+
+
 function setUserName() {
+
+
+
+
 
 
 
@@ -80,7 +154,15 @@ function setUserName() {
 
 
 
+
+
+
+
   if(!myName || myName === null) {
+
+
+
+
 
 
 
@@ -88,7 +170,15 @@ function setUserName() {
 
 
 
+
+
+
+
   } else {
+
+
+
+
 
 
 
@@ -96,7 +186,15 @@ function setUserName() {
 
 
 
+
+
+
+
     myHeading.innerHTML = 'Messi es mejor, asúmelo ' + myName;
+
+
+
+
 
 
 
@@ -104,7 +202,19 @@ function setUserName() {
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -116,7 +226,15 @@ if(!localStorage.getItem('name')) {
 
 
 
+
+
+
+
   setUserName();
+
+
+
+
 
 
 
@@ -124,7 +242,15 @@ if(!localStorage.getItem('name')) {
 
 
 
+
+
+
+
   let storedName = localStorage.getItem('name');
+
+
+
+
 
 
 
@@ -132,7 +258,19 @@ if(!localStorage.getItem('name')) {
 
 
 
+
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -144,7 +282,15 @@ myButton.onclick = function() {
 
 
 
+
+
+
+
   setUserName();
+
+
+
+
 
 
 
@@ -154,24 +300,52 @@ myButton.onclick = function() {
 
 
 
+
+
+
+
+
+
    var catEl = document.getElementById("cat");
+
+
 
  
 
+
+
   var startTime = new Date().getTime();
+
+
 
   var walkTheCat = function() {
 
+
+
       var currTime = new Date().getTime();
+
+
 
       var secondsElapsed = ((currTime - startTime)/1000);
 
+
+
    var newLeft= secondsElapsed*77 + "px";
+
+
 
     catEl.style.left= newLeft;
 
+
+
     window.requestAnimationFrame(walkTheCat);
+
+
 
   };
 
+
+
   walkTheCat();
+
+
