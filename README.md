@@ -1,4 +1,4 @@
 # GitHub-web-Hosting
 Esta tarea consiste en alojar una página web con unos elementos indicados por nuestro profesor (en nuestra Aula Virtual) en esta página, Github. Por último tenemos que enviarle el enlace a nuestro repositorio para que pueda observar el resultado final. Hay que comenzae creando un primer archivo llamado index.html y cambiar el Branch de master a gh-pages. Posteriormente habemos de crear un archivo de licencia , para acabar: tres carpetas, imágenes, scripts y estilos.
-<p>Para poder acceder a nuestra página web finalizada tienes que pinchar sobre este enlace:<a href="https://www.mozilla.org/en-US/about/manifesto/">Gimnastas</a>.</p>
-<p>Para llevar a cabo este proyecto hemos tomado como referencia la siguiente página  <a href="https://www.abc.es/contentfactory/post/2019/11/06/convocatoria-premios-conproposito/">de ABC</a >.</p>
+<p>Para poder acceder a nuestra página web finalizada tienes que pinchar sobre este enlace: <a href="https://www.mozilla.org/en-US/about/manifesto/">Gimnastas</a>.</p>
+<p>Para llevar a cabo este proyecto hemos tomado como referencia la siguiente<a href="https://www.abc.es/contentfactory/post/2019/11/06/convocatoria-premios-conproposito/"> página de ABC</a >.</p>
