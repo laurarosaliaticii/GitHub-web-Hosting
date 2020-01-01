@@ -1,4 +1,4 @@
 # GitHub-web-Hosting
-La tarea consiste en alojar una página web con una serie de elementos en esta página, Github, para ello tenemos que crear un primer archivo llamado index.html y cambiar el Branch de master a gh-pages. A continuación, tendremos que crear un archivo de licencia License y tres carpetas, la de images, la de scripts y la de styles.
-<p>Mira el enlace <a href="https://www.mozilla.org/en-US/about/manifesto/">Futbolistas</a> para ver mi página web alojada en Github.</p>
-<p>Para hacer esta página he seguido un modelo parecido al de esta página  <a href="https://www.abc.es/contentfactory/post/2019/11/06/convocatoria-premios-conproposito/">de ABC </a ></p>
+Esta tarea consiste en alojar una página web con unos elementos indicados por nuestro profesor (en nuestra Aula Virtual) en esta página, Github. Por último tenemos que enviarle el enlace a nuestro repositorio para que pueda observar el resultado final. Hay que comenzae creando un primer archivo llamado index.html y cambiar el Branch de master a gh-pages. Posteriormente habemos de crear un archivo de licencia , para acabar: tres carpetas, imágenes, scripts y estilos.
+<p>Para poder acceder a nuestra página web finalizada tienes que pinchar sobre este enlace:<a href="https://www.mozilla.org/en-US/about/manifesto/">Gimnastas</a>.</p>
+<p>Para llevar a cabo este proyecto hemos tomado como referencia la siguiente página  <a href="https://www.abc.es/contentfactory/post/2019/11/06/convocatoria-premios-conproposito/">de ABC</a >.</p>
